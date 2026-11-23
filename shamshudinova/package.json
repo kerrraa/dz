@@ -1,0 +1,19 @@
+{
+  "name": "equipment-stock",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@koa/bodyparser": "^6.1.0",
+    "@koa/router": "^15.7.1",
+    "koa": "^3.3.0",
+    "sqlite3": "^6.0.1"
+  }
+}
